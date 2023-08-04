@@ -1,0 +1,251 @@
+https://drive.google.com/drive/folders/1bCO50ymbs5UCcIPE0FGXiPm__qYAdbK-?usp=sharinghttps://drive.google.com/drive/folders/1bCO50ymbs5UCcIPE0FGXiPm__qYAdbK-?usp=sharinghttps://drive.google.com/drive/folders/1bCO50ymbs5UCcIPE0FGXiPm__qYAdbK-?usp=sharinghttps://drive.google.com/drive/folders/1bCO50ymbs5UCcIPE0FGXiPm__qYAdbK-?usp=sharing@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+ font-size: 16px;
+	color: black;
+	margin: 0px;
+}
+header{
+	width :100%;height: 60px;
+	box-shadow: 5px 5px 5px lightgray;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: inherit;
+	background-color: #F9C3D9
+}
+.logo{
+	padding-top:12px;
+}
+.logo img{
+	margin-left: 50px;
+	margin-top: -10%
+}
+.menu ul{
+	margin: 0; padding: 0; list-style: none;display: flex;
+}
+.menu{
+	padding-top: 20px;
+	
+}
+.menu ul li a{
+	padding: 8px 20px; border-radius: 20px;
+}
+.menu ul li a:hover{
+	background-color:  #DBD2CF;color: white;
+}
+#home{
+	width: 100%;min-height: 1000px; padding-top: 100px;
+	background: url( "../img/home.png"),url( "../img/homee.png");background-repeat: no-repeat; background-position: right 0 bottom 0,left 0 top 0; background-color: #F3FDFE
+}
+#home h1{
+	color: black; font-size: 50px
+}
+#about{
+	width: 100%;min-height: 900px; padding-top: 80px; background-color: #F3FDFE
+}
+#about .so{
+	font-size: 120px;
+	font-weight: bold;
+	color: black;
+	padding: 0 5px
+}
+#about .year{
+	letter-spacing: 30px;
+	font-weight: bold
+}
+#skill{
+	width: 100%;min-height: 900px; padding-top: 80px; background-color: #F3FDFE
+}
+/* Style the tab */
+#skill .tab {
+	border: 1px solid #EAD6EE; display: flex; border-radius: 5px
+}
+/* Style the buttons inside the tab */
+#skill .tab button {
+	border-radius: 5px;
+	width: 50%;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	transition: 0.3s;
+	font-size: 17px;
+	background: none
+}
+/* Change background color of buttons on hover */
+#skill .tab button:hover {
+	background-color: #E9BCAC; color: white
+}
+/* Create an active/current tablink class */
+#skill .tab button.active {
+	background-color: #D1C6F3; color: white
+}
+/* Style the tab content */
+#skill .tabcontent {
+	display: none;
+	padding: 6px 12px
+}
+.text-big{font-size: 35px}
+.progress{
+	height: 5px; width: 100%; background-color:#BFC8D9; border-radius: 6px
+}
+.bar{
+	height: 5px; border-radius: 6px; }
+#service{
+	width: 100%;min-height: 900px; padding-top: 80px; background-color: #F3FDFE
+}
+#service .service{
+	width: 100%;height: 150px;display: flex
+}
+#service .icon{
+	width: 180px;height: 150px;border: 1px solid #FCD9DF;display: flex;justify-content: center;align-items: center
+}
+#service .icon i{
+	font-size: 40px;color: #CFE0F8;transition:all 0.7s
+}
+#service .icon img{
+color: #E3F0FB;transition: all 0.7s;height: auto;width: 40px;
+}
+#service .service-text{
+	width: 100%;padding: 10px;height: 150px;transform: ease 0.7s
+}
+#service .service:hover .icon i{
+	width: 60px
+}
+#service .service:hover .icon img{
+	width: 60px
+}
+#service .service:hover .service-text{ 
+	background-color: #BBE6F0;color: black
+}
+#service .service:hover .service-text h4{
+	color: black
+}
+#projects{
+	width: 100%;min-height: 900px; padding-top: 80px; background-color: #F3FDFE
+}
+#projects .box{
+	display: flex;
+	justify-content: space-between;
+	align-items: center
+}
+/* Style the buttons that are used to open the tab content */
+#projects .tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+#projects .tab button:hover {
+  background-color: #E9BCAC; color: white
+}
+
+/* Create an active/current tablink class */
+#projects .tab button.active {
+  background-color: #D1C6F3; color: white
+}
+
+/* Style the tab content */
+#projects .tabcontent2 {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+#testimonial{
+	width: 100%;min-height: 900px; padding-top: 100px; background-color: #F3FDFE
+}
+#testimonial .client img {
+	width: 100px; height: 100px; border-radius: 50%
+}
+#testimonial .vien{
+	width: 100px; height: 100px; border-radius: 50%; padding: 7px; border: 1px solid blue
+}
+#testimonial .client{
+	text-align: center; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 15px 50px
+}
+
+
+#slider .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slider .owl-nav [class*='owl-'] {
+	font-size:60px; /* background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #B8DFE6
+}
+#slider .owl-nav .owl-next{ position:absolute; right:0%;}
+#slider .owl-nav .owl-prev{ position:absolute; left:0%;}
+#slider .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:#FBB9C5;
+      text-decoration: none; }
+#contact{
+	width: 100%;min-height: 900px; padding-top: 80px; background-color: #F3FDFE
+}
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+.text-do{
+	color: Red
+}
+.text-den{
+	color: black
+}
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+
+
+.flip-2-ver-right-bck {
+	-webkit-animation: flip-2-ver-right-bck 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) 2s 3 both;
+	        animation: flip-2-ver-right-bck 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) 2s 3 both;
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2023-8-3 17:58:13
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation flip-2-ver-right-bck
+ * ----------------------------------------
+ */
+@-webkit-keyframes flip-2-ver-right-bck {
+  0% {
+    -webkit-transform: translateX(0) translateZ(0) rotateY(0);
+            transform: translateX(0) translateZ(0) rotateY(0);
+    -webkit-transform-origin: 100% 50%;
+            transform-origin: 100% 50%;
+  }
+  100% {
+    -webkit-transform: translateX(100%) translateZ(-260px) rotateY(180deg);
+            transform: translateX(100%) translateZ(-260px) rotateY(180deg);
+    -webkit-transform-origin: 0% 50%;
+            transform-origin: 0% 50%;
+  }
+}
+@keyframes flip-2-ver-right-bck {
+  0% {
+    -webkit-transform: translateX(0) translateZ(0) rotateY(0);
+            transform: translateX(0) translateZ(0) rotateY(0);
+    -webkit-transform-origin: 100% 50%;
+            transform-origin: 100% 50%;
+  }
+  100% {
+    -webkit-transform: translateX(100%) translateZ(-260px) rotateY(180deg);
+            transform: translateX(100%) translateZ(-260px) rotateY(180deg);
+    -webkit-transform-origin: 0% 50%;
+            transform-origin: 0% 50%;
+  }
+}
